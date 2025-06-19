@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cloud"
+    tools:context=".MainActivity11">
+
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:text="@string/ui"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView36"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:text="@string/lessons"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/textView34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:text="Description"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.717"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="28 lessons"
+        app:layout_constraintEnd_toStartOf="@+id/textView36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6h 30min"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.728"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="336dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="40dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginBottom="651dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_nav_removebg_preview" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="55dp"
+        android:background="@color/box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="328dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="55dp"
+        android:background="@color/box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="39dp"
+        android:layout_height="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/pause_removebg_preview"
+        tools:layout_editor_absoluteY="464dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introdrction to UI/UX Designing"
+        android:textColor="@color/background"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="464dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 min"
+        android:textColor="@color/background"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="480dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="1dp"
+        android:background="@color/box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="318dp"
+        android:layout_height="47dp"
+        android:background="@color/box"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="526dp" />
+
+    <View
+        android:id="@+id/divider6"
+        android:layout_width="315dp"
+        android:layout_height="48dp"
+        android:background="@color/box"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="602dp" />
+
+    <View
+        android:id="@+id/divider8"
+        android:layout_width="409dp"
+        android:layout_height="50dp"
+        android:background="@color/box"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <View
+        android:id="@+id/divider9"
+        android:layout_width="338dp"
+        android:layout_height="205dp"
+        android:background="@color/view"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="105dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/uui"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <View
+        android:id="@+id/divider10"
+        android:layout_width="439dp"
+        android:layout_height="46dp"
+        android:background="@color/background"
+        tools:layout_editor_absoluteX="-20dp"
+        tools:layout_editor_absoluteY="686dp" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="38dp"
+        android:layout_height="34dp"
+        app:srcCompat="@drawable/download__2_"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="692dp" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="42dp"
+        android:layout_height="37dp"
+        app:srcCompat="@drawable/cc"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="689dp" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="36dp"
+        android:layout_height="34dp"
+        app:srcCompat="@drawable/download__6_"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="689dp" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="36dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/play1"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="533dp" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="34dp"
+        android:layout_height="33dp"
+        app:srcCompat="@drawable/play1"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="609dp" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/background"
+        android:text="Brainstorm in Design Thinking"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="532dp" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20 min"
+        android:textColor="@color/background"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="547dp" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/background"
+        android:text="Cross-platform consistency in UX"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="606dp" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30 min"
+        android:textColor="@color/background"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="621dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

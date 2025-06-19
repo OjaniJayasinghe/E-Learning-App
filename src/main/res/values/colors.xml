@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="noble">#FFFFFF</color>
+    <color name="sign">#C0E1FF</color>
+    <color name="logoPage">#1D71BF</color>
+    <color name="cloud">#99CEFF</color>
+    <color name="box">#668AAC</color>
+    <color name="view">#617180</color>
+    <color name="color">#C5D7E9</color>
+    <color name="btn">#9F82C3</color>
+    <color name="background">#353839</color>
+</resources>

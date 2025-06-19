@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity9">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="294dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="88dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/all" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-94dp"
+        android:text="All Courses"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="219dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView28"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/uui" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="UI/UX Designing"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="28 lessons"
+        app:layout_constraintEnd_toStartOf="@+id/textView30"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6h 30min"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.728"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="147dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="42dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29"
+        app:srcCompat="@drawable/graphic" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/black"
+        android:text="Graphic Designing"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="10 lessons"
+        app:layout_constraintEnd_toStartOf="@+id/textView33"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4h 15min"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.716"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="635dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="29dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginBottom="650dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_nav_removebg_preview" />
+
+    <View
+        android:id="@+id/divider13"
+        android:layout_width="421dp"
+        android:layout_height="65dp"
+        android:background="@color/box"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="-10dp" />
+
+    <View
+        android:id="@+id/divider14"
+        android:layout_width="435dp"
+        android:layout_height="59dp"
+        android:background="@color/background"
+        tools:layout_editor_absoluteX="-12dp"
+        tools:layout_editor_absoluteY="672dp" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="51dp"
+        android:layout_height="45dp"
+        app:srcCompat="@drawable/download__2_"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="679dp" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="48dp"
+        android:layout_height="44dp"
+        app:srcCompat="@drawable/cc"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="679dp" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="49dp"
+        android:layout_height="45dp"
+        app:srcCompat="@drawable/download__6_"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="679dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

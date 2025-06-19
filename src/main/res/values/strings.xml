@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Noble Swotting</string>
+    <string name="bttn1">Next</string>
+    <string name="onBoardP1">Online Learning</string>
+    <string name="onBoardP1a">Let the learning process develop your skills</string>
+    <string name="onBoardP2">Thousands of course activities</string>
+    <string name="onBoardP2a">High quality learning materials for  every subject that will help to do self-learning</string>
+    <string name="getStarted">"Get Started"</string>
+    <string name="welcome">Welcome To</string>
+    <string name="NobleSwotting">Noble Swotting</string>
+    <string name="begin">"Your trustful e-learning app"</string>
+    <string name="Email">"E-mail"</string>
+    <string name="Password">"Password"</string>
+    <string name="Signup">"Sign up"</string>
+    <string name="Signin">"Sign in"</string>
+    <string name="acc">"Don't have an account?"</string>
+    <string name="create">"Create an Account"</string>
+    <string name="Name">"Name"</string>
+    <string name="ConfirmPassword">"Confirm Password"</string>
+    <string name="find">"Find your lessons today!"</string>
+    <string name="go">"Go to profile"</string>
+    <string name="all">"All courses"</string>
+    <string name="rec">"Recommended courses"</string>
+    <string name="ui">"UI/UX Designing"</string>
+    <string name="web">"Web Development"</string>
+    <string name="hi">"Hi, Jane"</string>
+    <string name="mail">"rodrigo123@gmail.com"</string>
+    <string name="name">"Jane Rodrigo"</string>
+    <string name="hel">"Hello, Jane!"</string>
+    <string name="lessons">"Lessons"</string>
+</resources>
