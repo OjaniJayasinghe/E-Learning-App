@@ -1,8 +1,6 @@
 # E-Learning-App
 
-
 📚 Project Objective
-
 🎓 Empowering Learning Through Technology
 
 <div align="center"> <img src="https://cdn-icons-png.flaticon.com/512/3135/3135765.png" width="120" alt="E-learning Icon" /> </div>
